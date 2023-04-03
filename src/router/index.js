@@ -16,6 +16,12 @@ const routes = [
         name: 'contact.edit',
         component: () => import("@/views/ContactEdit.vue"),
         props: true // this will pass the route params to the component as props
+    },
+    {
+        path: '/contacts/add',
+        name: 'contact.add',
+        component: () => import("@/views/ContactAdd.vue"),
+        props: true // this will pass the route params to the component as props
     }
 ]
 
